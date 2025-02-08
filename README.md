@@ -75,7 +75,7 @@ Applies a binary callback to elements in two [broadcasted][@stdlib/array/base/br
 
 ```javascript
 var zeros5d = require( '@stdlib/array-base-zeros5d' );
-var add = require( '@stdlib/math-base-ops-add' );
+var add = require( '@stdlib/number-float64-base-add' );
 
 var x = [ [ 1.0, 2.0 ] ];
 var y = [ [ 3.0 ], [ 4.0 ] ];
@@ -121,7 +121,7 @@ The function accepts the following arguments:
 var discreteUniform = require( '@stdlib/random-base-discrete-uniform' ).factory;
 var filled5dBy = require( '@stdlib/array-base-filled5d-by' );
 var zeros5d = require( '@stdlib/array-base-zeros5d' );
-var add = require( '@stdlib/math-base-ops-add' );
+var add = require( '@stdlib/number-float64-base-add' );
 var bbinary5d = require( '@stdlib/array-base-broadcasted-binary5d' );
 
 var shapes = [
@@ -181,7 +181,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
